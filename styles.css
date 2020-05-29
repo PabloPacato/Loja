@@ -1,0 +1,63 @@
+header {
+    position: relative;
+}
+
+body {
+    background-image: url(./Imagens/background.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+h1 {
+    border: 1px solid;
+    text-align: center;
+    margin-top: left;
+}
+
+li {
+    padding: 5px 5px 5px 5px;
+}
+
+.conta {
+    border-image: url(./Imagens/2x/baseline_fingerprint_black_18dp.png);
+}
+
+.logo {
+    position: relative;
+    top: 2px;
+    left: -330px;
+}
+
+.sacola {
+    background-image: url(./Imagens/2x/baseline_shopping_bag_black_18dp.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 20px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.menu {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.menu ul li {
+    display: inline;
+    margin-top: 20px;
+}
